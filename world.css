@@ -1,1 +1,31 @@
-/* Add your own styles */
+/* General Table Styling */
+table {
+    width: 100%; /* Full-width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 20px 0; /* Add some space around the table */
+    font-size: 1em; /* Set font size */
+    font-family: Arial, sans-serif; /* Set a font */
+}
+
+/* Header Styling */
+th {
+    background-color: #f2f2f2; /* Light gray background */
+    color: #333; /* Dark text color */
+    padding: 10px; /* Add space around content */
+    text-align: left; /* Align text to the left */
+}
+
+/* Cell Styling */
+td {
+    padding: 8px; /* Add space around content */
+    border-bottom: 1px solid #ddd; /* Add border to the bottom */
+}
+
+/* Row Styling */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra-striping for even rows */
+}
+
+tr:hover {
+    background-color: #eaeaea; /* Highlight on row hover */
+}
