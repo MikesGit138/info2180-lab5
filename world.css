@@ -1,31 +1,90 @@
-/* General Table Styling */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Controls Styling */
+#controls {
+    margin-bottom: 20px;
+}
+
+#controls label {
+    margin-right: 10px;
+}
+
+#controls input[type="search"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+}
+
+/* Button Styling */
+button {
+    background-color: #28A745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Result Area Styling */
+#result {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
 table {
-    width: 100%; /* Full-width */
-    border-collapse: collapse; /* Collapse borders */
-    margin: 20px 0; /* Add some space around the table */
-    font-size: 1em; /* Set font size */
-    font-family: Arial, sans-serif; /* Set a font */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-/* Header Styling */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
 th {
-    background-color: #f2f2f2; /* Light gray background */
-    color: #333; /* Dark text color */
-    padding: 10px; /* Add space around content */
-    text-align: left; /* Align text to the left */
+    background-color: #f2f2f2;
 }
 
-/* Cell Styling */
-td {
-    padding: 8px; /* Add space around content */
-    border-bottom: 1px solid #ddd; /* Add border to the bottom */
-}
-
-/* Row Styling */
 tr:nth-child(even) {
-    background-color: #f9f9f9; /* Zebra-striping for even rows */
-}
-
-tr:hover {
-    background-color: #eaeaea; /* Highlight on row hover */
+    background-color: #f9f9f9;
 }
